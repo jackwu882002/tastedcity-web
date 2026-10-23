@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>CityGuidePass · 私家品味通行证</title>
+    
+    <!-- 🎯 苹果官方 Smart App Banner：在 iPhone Safari 顶部直接唤起苹果原生 App 下载/打开横幅 -->
+    <meta name="apple-itunes-app" content="app-id=6738914800, app-argument=https://tastedcity.asia">
+    
+    <style>
+        * { box-sizing: border-box; margin: 0; padding: 0; }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "SF Pro Display", "PingFang SC", "Segoe UI", Roboto, sans-serif;
+            background: linear-gradient(180deg, #0e1117 0%, #060709 100%);
+            color: #ffffff;
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            padding: 40px 24px;
+            text-align: center;
+        }
+        .container {
+            max-width: 440px;
+            width: 100%;
+            background: rgba(255, 255, 255, 0.04);
+            border: 1px solid rgba(255, 255, 255, 0.08);
+            border-radius: 28px;
+            padding: 40px 28px;
+            backdrop-filter: blur(20px);
+            -webkit-backdrop-filter: blur(20px);
+            box-shadow: 0 20px 40px rgba(0,0,0,0.5);
+        }
+        .logo-badge {
+            width: 76px;
+            height: 76px;
+            background: linear-gradient(135deg, #f59e0b 0%, #d97706 100%);
+            border-radius: 22px;
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 38px;
+            margin-bottom: 24px;
+            box-shadow: 0 10px 24px rgba(245, 158, 11, 0.35);
+        }
+        .pill {
+            display: inline-block;
+            padding: 6px 14px;
+            background: rgba(245, 158, 11, 0.12);
+            border: 1px solid rgba(245, 158, 11, 0.25);
+            border-radius: 100px;
+            font-size: 12px;
+            font-weight: 700;
+            color: #f59e0b;
+            letter-spacing: 1px;
+            text-transform: uppercase;
+            margin-bottom: 16px;
+        }
+        h1 {
+            font-size: 24px;
+            font-weight: 800;
+            line-height: 1.35;
+            margin-bottom: 12px;
+            letter-spacing: -0.5px;
+        }
+        p {
+            color: #9ca3af;
+            font-size: 14.5px;
+            line-height: 1.65;
+            margin-bottom: 32px;
+        }
+        .download-btn {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 12px;
+            width: 100%;
+            background: #ffffff;
+            color: #000000;
+            text-decoration: none;
+            padding: 15px 20px;
+            border-radius: 16px;
+            font-weight: 700;
+            font-size: 15px;
+            transition: all 0.2s ease;
+            box-shadow: 0 8px 20px rgba(255,255,255,0.15);
+        }
+        .download-btn:active {
+            transform: scale(0.98);
+            opacity: 0.9;
+        }
+        .wechat-tip {
+            margin-top: 24px;
+            padding: 12px;
+            background: rgba(255, 255, 255, 0.03);
+            border-radius: 12px;
+            font-size: 12px;
+            color: #6b7280;
+            line-height: 1.5;
+        }
+        .footer-links {
+            margin-top: 28px;
+            padding-top: 18px;
+            border-top: 1px solid rgba(255, 255, 255, 0.06);
+            font-size: 12px;
+            color: #6b7280;
+        }
+        .footer-links a {
+            color: #9ca3af;
+            text-decoration: none;
+            transition: color 0.2s;
+        }
+        .footer-links a:hover {
+            color: #f59e0b;
+        }
+        .footer-links .sep {
+            margin: 0 6px;
+            color: #4b5563;
+        }
+        .apple-icon {
+            font-size: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="logo-badge">🧭</div>
+        <div><span class="pill">TASTED · 私家品味通行证</span></div>
+        <h1>好友向您投送了专属私藏路书</h1>
+        <p>内含真实亲测探店坐标、私房机位与手账笔记。<br>若已安装 App 正在为您无缝唤起开箱；若未安装，请前往下载体验。</p>
+        
+        <a href="https://apps.apple.com/app/id6738914800" class="download-btn" id="appStoreBtn">
+            <span class="apple-icon"></span>
+            <span>前往 App Store 免费获取</span>
+        </a>
+
+        <div class="wechat-tip">
+            💡 微信用户提示：若未自动跳转，可点击右上角 <strong>「···」</strong>，选择 <strong>「在默认浏览器中打开」</strong>。
+        </div>
+
+        <div class="footer-links">
+            <a href="privacy.html">隐私政策</a>
+            <span class="sep">·</span>
+            <a href="terms.html">用户服务协议与 EULA</a>
+            <span class="sep">·</span>
+            <a href="support.html">支持与合规</a>
+        </div>
+    </div>
+</body>
+</html>
