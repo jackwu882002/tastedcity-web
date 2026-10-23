@@ -1,0 +1,14 @@
+{
+  "applinks": {
+    "apps": [],
+    "details": [
+      {
+        "appID": "9LZS73JUR5.jack-team.CityGuidePass",
+        "paths": [
+          "/pass/*",
+          "/p/*"
+        ]
+      }
+    ]
+  }
+}
